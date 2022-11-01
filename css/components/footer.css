@@ -13,9 +13,13 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 
+  color: inherit;
+}
+
+.address__list {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address__list:first-child {
+.address__item:first-child {
   color: var(--white-color);
 }
