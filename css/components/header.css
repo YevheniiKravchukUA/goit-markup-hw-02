@@ -18,7 +18,7 @@
 
 .nav__item-link {
   font-weight: var(--medium-weight);
-  font-size: var(--primaty-size);
+  font-size: var(--primary-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -32,7 +32,7 @@
 
 .address-list__link {
   font-weight: var(--medium-weight);
-  font-size: var(--primaty-size);
+  font-size: var(--primary-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -41,5 +41,9 @@
 
 .address-list__link:hover,
 .address-list__link:focus {
+  color: var(--active-color);
+}
+
+.current {
   color: var(--active-color);
 }
